@@ -1,0 +1,31 @@
+-- ========================================================
+-- Créditos:
+-- Script original criado por: Duart3x
+-- Todas as modificações feitas por: pika80
+--
+-- Discord https://discord.gg/4Xq6AZ3nM4
+--
+-- Modificações realizadas:
+-- - Adicionado suporte ao ox_target
+-- - Todas as notificações alteradas para okokNotify
+-- - Temporizador do teste Drive ajustado
+-- - UI do HTML modificada
+--
+-- Observação: Todos os créditos do script original vão para Duart3x
+-- ========================================================
+
+-- ========================================================
+-- Credits:
+-- Original script created by: Duart3x
+-- All modifications made by: pika80
+--
+-- Discord   / discord  
+--
+-- Modifications made:
+-- - Added support for ox_target
+-- - All notifications changed to okokNotify
+-- - Adjusted the Drive Test Timer
+-- - Modified the HTML UI
+--
+-- Note: All credits for the original script go to Duart3x
+-- ============================================================

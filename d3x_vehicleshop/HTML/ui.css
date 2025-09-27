@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+	background-color: transparent;
+	overflow: hidden;
+}
+#body::-webkit-scrollbar {
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#body::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.1);
+	border: 1px solid #ccc;
+}
+
+#body::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: linear-gradient(left, #fff, #e4e4e4);
+	border: 1px solid #aaa;
+}
+
+#body::-webkit-scrollbar-thumb:hover {
+	background: #fff;
+}
+
+#body::-webkit-scrollbar-thumb:active {
+	background: linear-gradient(left, #22add4, #1e98ba);
+}
+
+/* nav.navbar {
+	background-color: #1e98ba;
+}
+
+.container-fluid {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	left: 7.5vw;
+	top: 20vw;
+	transition: right 1s;
+}
+
+.container {
+	display: block;
+	top: 3vw;
+}
+
+.unselectable {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-o-user-select: none;
+} */
+
+.navbar{
+	background-color: #282e3f !important;
+	border-radius: 15px;
+}
+
+.h1.navbar-brand {
+	color: white;
+}
+
+#shopmenu {
+    background-color: #1b1f2a !important;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #2a2f3a !important;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.card-footer {
+	background-color: #2a2f3a !important;
+}
+
+.card-title {
+    color: #4da6ff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-buy {
+    background-color: #e74c3c !important;
+    color: #fff !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.btn-test {
+    background-color: #2ecc71 !important;
+    color: #fff !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-buy:hover {
+    background-color: #c0392b !important;
+}
+
+.btn-test:hover {
+    background-color: #27ae60 !important;
+}
+
+.btn.btn-primary {
+	position: relative;
+	left: 50px;
+}
+
+/* Se quiser aplicar o estilo ao botão de procurar */
+#search {
+    background-color: #007bff !important;
+    color: #fff !important;
+    border: none;
+}
+
+#search:hover {
+    background-color: #0056b3 !important;
+}
+
+#page-prv,
+#page-nxt,
+#n-pag,
+#close {
+  color: #ffffff;
+}
+
+#page-nxt:hover,
+#page-prv:hover,
+#close:hover {
+	cursor: pointer;
+}
